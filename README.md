@@ -1,5 +1,5 @@
-# toastr-5.1-laravel
-toastr.js for Laravel 5.1
+# toastr-5.2-laravel
+toastr.js for Laravel 5.2
 
 **Bower**
 
@@ -14,20 +14,15 @@ Link to toastr.css  ```<link href="toastr.css" rel="stylesheet"/>```
 Link to toastr.js  ```<script src="toastr.js"></script>```
 
 
-###3
-toastr
-======
-
-Easy [toastr.js](http://codeseven.github.io/toastr/) notifications for Laravel 5.1, a ported version of Laravel 4 Toastr by [kamaln7](https://github.com/kamaln7/toastr)
 
 Installation
 ------------
 
-1. Either run `composer require nilsenj/toastr-5.1-laravel` 
-or add `"nilsenj/toastr-5.1-laravel": "dev-master"` to the `require` key in `composer.json` and run `composer install`
+1. Either run `composer require narutimateum/toastr-5.2-laravel` 
+or add `"narutimateum/toastr-5.2-laravel": "dev-master"` to the `require` key in `composer.json` and run `composer install`
 
-2. Add `'nilsenj\Toastr\ToastrServiceProvider',` to the `providers` key in `config/app.php`
-3. Add `'Toastr'          => 'nilsenj\Toastr\Facades\Toastr',` to the `aliases` key in `config/app.php`
+2. Add `'narutimateum\Toastr\ToastrServiceProvider',` to the `providers` key in `config/app.php`
+3. Add `'Toastr'          => 'narutimateum\Toastr\Facades\Toastr',` to the `aliases` key in `config/app.php`
 
 Usage
 -----
