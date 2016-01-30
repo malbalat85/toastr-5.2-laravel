@@ -12,13 +12,13 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "php": ">=5.4.0",
-        "illuminate/support": ">=5.0.0",
-        "illuminate/session": ">=5.0.0"
+        "php": ">=5.5.0",
+        "illuminate/support": ">=5.2.7",
+        "illuminate/session": ">=5.2.7"
     },
     "autoload": {
         "psr-0": {
-            "nilsenj\\Toastr\\": "src/"
+            "narutimateum\\Toastr\\": "src/"
         }
     }
 }
