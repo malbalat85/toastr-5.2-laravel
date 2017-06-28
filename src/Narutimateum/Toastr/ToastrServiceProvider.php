@@ -1,4 +1,4 @@
-<?php namespace narutimateum\Toastr;
+<?php namespace Narutimateum\Toastr;
 
 use Illuminate\Support\ServiceProvider;
 
