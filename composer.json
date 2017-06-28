@@ -18,7 +18,7 @@
     },
     "autoload": {
         "psr-0": {
-            "narutimateum\\Toastr\\": "src/"
+            "Narutimateum\\Toastr\\": "src/"
         }
     }
 }

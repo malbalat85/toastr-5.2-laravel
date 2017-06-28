@@ -46,7 +46,12 @@ class Toastr {
      *
      */
     public function render() {
-        $notifications = $this->session->get('toastr::notifications');
+        /* This needs to be changed to pull,
+         * just in case the flash keeps the session data
+         * https://stackoverflow.com/questions/36279871/laravel-5-2-session-flash-not-working-even-with-web-middleware
+         * wont be showed more than once
+         */
+        $notifications = $this->session->pull('toastr::notifications');
         if(!$notifications) $notifications = [];
 
         $output = '<script type="text/javascript">';

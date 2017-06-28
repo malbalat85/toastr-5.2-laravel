@@ -62,7 +62,7 @@ to publish the config file for Toastr. Then edit `config/toastr.php` and set the
 return [
     'options' => 
     ["progressBar" => true,
-    "positionClass" =>"toast-bottom-right",
+    "positionClass" =>"toast-top-right",
     "preventDuplicates"=> false,
     "showDuration" => 300,
     "hideDuration" => 1000,
